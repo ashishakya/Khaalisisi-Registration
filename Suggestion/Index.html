@@ -1,0 +1,54 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script  language="javascript">
+		function validate(form)
+		{	
+			returnvalue=true;
+			
+			text=form.suggestion.value;
+			
+			
+			// atpos = email.indexOf("@");
+			// dotpos = email.lastIndexOf(".");
+			
+			// num="0123456789";
+			// counter=0;
+			
+			
+			// /*if(isEmpty(fname))
+			// 	alert("fname not entered"); >>>>>does not work*/	
+			
+			if(text=="")
+			{	
+				returnvalue=false;
+				alert(" Please fill the suggestion ");
+			}	
+			
+			
+			
+			
+			return returnvalue;			
+		}
+	</script>
+
+</head>
+<!-- <body style="background: bg.jpg; margin-left: auto; margin-right: auto;"> -->
+<body>
+ 	<!-- <div class="locator"> -->
+ 	<div>
+      <!-- <form action="" method="POST" action="data.php" > -->
+      <img src="Feedback.jpg" height="250px" width="250px;" style="float: left;">
+      <form method="POST"  action="data.php" onsubmit="return validate(this)" >
+      	<br>
+      <textarea rows="20" cols="50" style="border-width: 5px;" name="suggestion"></textarea>
+      <br>
+      <input class="image" type="Submit" value="Submit">
+      <input class="image2" type="reset" name="reset"  value="Clear" />
+      </form>
+  	</div>
+
+
+</body>
+
+</html>

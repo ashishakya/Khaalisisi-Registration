@@ -1,0 +1,53 @@
+form
+{
+    align:"center";
+}
+
+
+/*body{
+  position: relative;
+    background-image: url("trash.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100vh;
+}*/
+
+/*CSS to main Container TABLE or DIV or any PlaceHolder TAG of the web page*/
+form{
+    width:500px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+}
+
+
+ .locator{position: absolute; 
+    visibility: visible; 
+    left: 550px; 
+    top: 600px; 
+    color:red;
+    z-index: 300;
+    font-family: ariel; 
+    font-size: 30;} 
+
+ .image{
+ font-size: 20px; 
+    font-weight: bold;
+    font-family: ariel; 
+    background-color: pink;
+    display:black;
+    margin-left: 100px;
+    margin-right: 80px;
+    margin-top: 10px;
+    padding: 4px;
+    border-style: dotted;
+ }
+
+ .image2{
+ font-size: 20px; 
+    font-weight: bold;
+    font-family: ariel; 
+    background-color: pink;
+    display:black;
+    padding: 4px;
+    border-style: dotted;
+ }

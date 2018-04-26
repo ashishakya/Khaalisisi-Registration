@@ -1,0 +1,46 @@
+body{
+	background-color:grey;
+}
+.signup{
+	background-color:#DEB887;
+	padding:5px;
+	border: solid 2px #1DA364;
+    width: 500px;
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.form_design{
+
+	background-color:#DEB887;
+	padding:5px;
+	border: solid 2px white;
+    width: 500px;
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+h3{
+	text-align:center;
+	margin:0px;
+	color:black;
+	padding-bottom:5px;
+	
+}
+
+h1{
+	text-align:center;
+	margin:0px;
+	color:white;
+	padding-bottom:5px;
+	color:#FFFF00;
+}
+
+
+h4{
+	margin:0px;
+}
